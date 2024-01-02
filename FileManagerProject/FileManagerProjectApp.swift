@@ -13,7 +13,8 @@ struct FileManagerProjectApp: App {
         WindowGroup {
 //            ContentView()
 //            PhotoView()
-            FileManagerView()
+//            FileManagerView()
+            MainContentView()
         }
     }
 }

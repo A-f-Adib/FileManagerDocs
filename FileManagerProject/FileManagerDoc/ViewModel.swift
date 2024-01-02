@@ -17,7 +17,7 @@ class ViewModel : ObservableObject {
         getImgFromAssets()
     }
     
-    //getting the image from assets
+    //getting the image from assets that was called from model
     func getImgFromAssets() {
         image = UIImage(named: imgName)
     }

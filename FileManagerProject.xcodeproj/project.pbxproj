@@ -17,6 +17,10 @@
 		740746CF2B43568400986CB1 /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740746CE2B43568400986CB1 /* FileManagerView.swift */; };
 		745779DC2B4380D700E50B91 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745779DB2B4380D700E50B91 /* Model.swift */; };
 		745779DE2B4380E700E50B91 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745779DD2B4380E700E50B91 /* ViewModel.swift */; };
+		747E5A832B44690E00CF0C76 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E5A822B44690E00CF0C76 /* MainContentView.swift */; };
+		747E5A852B446F0F00CF0C76 /* PhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E5A842B446F0F00CF0C76 /* PhotosPicker.swift */; };
+		747E5A872B44A18D00CF0C76 /* FModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E5A862B44A18D00CF0C76 /* FModel.swift */; };
+		747E5A892B44A19F00CF0C76 /* FViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E5A882B44A19F00CF0C76 /* FViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		740746CE2B43568400986CB1 /* FileManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
 		745779DB2B4380D700E50B91 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		745779DD2B4380E700E50B91 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		747E5A822B44690E00CF0C76 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		747E5A842B446F0F00CF0C76 /* PhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker.swift; sourceTree = "<group>"; };
+		747E5A862B44A18D00CF0C76 /* FModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FModel.swift; sourceTree = "<group>"; };
+		747E5A882B44A19F00CF0C76 /* FViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 				740746B92B42461600986CB1 /* FileManagerProjectApp.swift */,
 				740746BB2B42461600986CB1 /* ContentView.swift */,
 				740746C72B4247D100986CB1 /* ImagePicker.swift */,
+				747E5A812B44659300CF0C76 /* FileManagerAssignment */,
 				745779DA2B43809700E50B91 /* FileManagerDoc */,
 				740746C92B42FC1300986CB1 /* PhotoPicker */,
 				740746BD2B42461800986CB1 /* Assets.xcassets */,
@@ -99,6 +108,17 @@
 				745779DB2B4380D700E50B91 /* Model.swift */,
 			);
 			path = FileManagerDoc;
+			sourceTree = "<group>";
+		};
+		747E5A812B44659300CF0C76 /* FileManagerAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				747E5A822B44690E00CF0C76 /* MainContentView.swift */,
+				747E5A882B44A19F00CF0C76 /* FViewModel.swift */,
+				747E5A862B44A18D00CF0C76 /* FModel.swift */,
+				747E5A842B446F0F00CF0C76 /* PhotosPicker.swift */,
+			);
+			path = FileManagerAssignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,10 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				745779DC2B4380D700E50B91 /* Model.swift in Sources */,
+				747E5A892B44A19F00CF0C76 /* FViewModel.swift in Sources */,
 				740746C82B4247D100986CB1 /* ImagePicker.swift in Sources */,
+				747E5A852B446F0F00CF0C76 /* PhotosPicker.swift in Sources */,
 				740746BC2B42461600986CB1 /* ContentView.swift in Sources */,
+				747E5A872B44A18D00CF0C76 /* FModel.swift in Sources */,
 				740746CF2B43568400986CB1 /* FileManagerView.swift in Sources */,
 				740746BA2B42461600986CB1 /* FileManagerProjectApp.swift in Sources */,
+				747E5A832B44690E00CF0C76 /* MainContentView.swift in Sources */,
 				740746CD2B42FE0300986CB1 /* PhotoPicker.swift in Sources */,
 				745779DE2B4380E700E50B91 /* ViewModel.swift in Sources */,
 				740746CB2B42FC3200986CB1 /* PhotoView.swift in Sources */,
