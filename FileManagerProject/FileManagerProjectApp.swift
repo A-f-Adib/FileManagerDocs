@@ -11,7 +11,9 @@ import SwiftUI
 struct FileManagerProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            PhotoView()
+            FileManagerView()
         }
     }
 }
